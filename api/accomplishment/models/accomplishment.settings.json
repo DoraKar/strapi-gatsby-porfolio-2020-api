@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accomplishments",
+  "info": {
+    "name": "Accomplishment"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "acc_type": {
+      "type": "string",
+      "required": true
+    },
+    "acc_name": {
+      "type": "string",
+      "required": true
+    },
+    "acc_desc": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
